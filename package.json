@@ -4,6 +4,7 @@
   "dependencies": {
     "angular": "^1.4.5",
     "angular-mocks": "^1.4.5",
+    "angular-ui-router": "^0.2.15",
     "browserify": "^11.0.1",
     "del": "^2.0.0",
     "gulp": "^3.9.0",
