@@ -1,4 +1,6 @@
 require('angular');
+window.jQuery = require('jquery');
+require('bootstrap-sass');
 
 var app = angular.module('lda', []);
 
