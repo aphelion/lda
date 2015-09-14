@@ -12,7 +12,12 @@ app.config(function($stateProvider, $urlRouterProvider) {
         .state('home', {
             url: '/',
             template: '<about-lda/>'
+        })
+        .state('directory', {
+            url: '/directory',
+            template: '<organization-directory/>'
         });
 });
 
 require('./about_lda_directive');
+require('./organization_directory_directive');
